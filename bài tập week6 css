@@ -1,0 +1,130 @@
+#div1{
+    float: left;
+    background: rgb(127, 143, 142);
+    width: 100%;;
+}
+#div1
+{
+border:1px;
+background-color:rgb(127, 143, 142);
+height:30px;
+}
+/* mất dấu chấm */
+#div1 ul
+{
+list-style:none;
+}
+/* đổi bên chữ */
+#div1 ul li
+{
+position:relative;
+float:right;
+}
+/* đổi màu chữ hiện */
+#div1 li a
+{
+text-decoration:none;
+color:#f3f1f1;
+padding: .3cm 10px;/*khoảng cách chữ*/
+font-size: 20px;
+display:block;
+}
+#div1 li ul{
+position:absolute;
+display:none;
+}
+/* ấn vào để hiện */
+#div1 li:hover ul{
+display:block;
+}
+/* đổi màu chữ ấn */
+#div1 ul li a:hover
+{
+color:#e60404;
+}
+/* đổi khung chữ theo màu */
+.a1 a:hover
+{
+color:rgb(255, 255, 255);
+background-color:#000000;
+}
+/* tạo khung */
+.a1 a:link
+{
+border:1px solid;
+width:6cm;
+}
+/* a2 */
+#SideBar li a
+{
+text-decoration:none;
+color:#f3e9e9;
+padding: .4cm 10px;/*khoảng cách chữ*/
+font-size: 20px;
+display: block;
+
+}
+#SideBar ul
+{
+list-style:none;
+font-size: 30px;
+text-align: left;
+}
+#a2 li:hover ul{
+    display:block;
+}
+.a2 a:hover
+{
+color:rgb(7, 7, 7);
+background-color:#000000;
+}
+
+/* tạo khung */
+.a2 a:link
+{
+border: 1px solid;
+width:6cm;
+}
+/* các lệnh bố cục sắp xếp ảnh */
+#Header1{
+    float: left;
+    background: rgb(127, 143, 142);
+    height: 50px; ;
+    width: 100%;;
+}
+#Header2{
+    float: left;
+    background: blue;
+    height: 50px; ;
+    width: 22%;;
+    text-align: center;
+    font-size: 12px;
+}
+#SideBar{
+    clear: both;
+    float: left;
+    background: rgb(11, 153, 219);
+    height: 500px;
+    width: 22%;
+    text-align: center;
+    font-size: 150%;
+}
+#Content{
+    float: top;
+    background: rgb(37, 177, 74);
+    height: 630px;
+    width: 100%;
+    }  
+#content{    
+    float: left;
+    background: rgb(25, 160, 61);
+    height: 100px;
+    width: 100%;
+}
+#Footer{
+    float: left;
+    background: purple;
+    height: 50px;
+    width: 100%;
+}
+
